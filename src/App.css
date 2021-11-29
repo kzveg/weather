@@ -1,0 +1,75 @@
+.body{
+  display: flex;
+}
+
+.main{
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(147, 204, 236);
+  
+}
+
+.input{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.citys{
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.MuiPaper-root {
+margin :20px;
+}
+
+.city-weter{
+  text-align: center;
+  color: crimson;
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+}
+
+.showcity{
+  height: 90vh;
+  width: 90vw;
+  background-size: cover;
+  background-image: url('https://search4less.com/wp-content/plugins/arprice/images/animated_images/background.gif');
+  border: 3px solid #7922CC;
+  border-radius: 25px;
+  margin-left: 40px;
+}
+
+.showcity-name{
+  text-align: center;
+  margin: 0px;
+  padding: 20px;
+  font-size: 50px;
+  font-weight: bolder;
+  text-shadow: 4px 0px 10px #f2f3ee;
+}
+
+.showcity-description{
+  text-align: center;
+}
+
+.ul{
+  list-style-type: none
+}
+
+li{
+  margin: 20px;
+}
+
+.close{
+  text-align: end;
+  margin-right: 30px;
+  padding-top: 30px;
+}
+
+.icon{
+  height: 152px;
+}
